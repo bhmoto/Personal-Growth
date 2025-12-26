@@ -1,0 +1,22 @@
+# ChatGPT export media folders (images, audio, etc.)
+# The conversation text is in conversations.json - media not needed for review
+chatgpt-history/export-*/*/
+
+# Keep the main JSON and HTML files
+!chatgpt-history/export-*/*.json
+!chatgpt-history/export-*/*.html
+
+# OS files
+.DS_Store
+*.swp
+*~
+
+# Large files that shouldn't be in git
+*.mp3
+*.mp4
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
